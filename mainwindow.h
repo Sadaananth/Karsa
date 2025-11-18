@@ -18,6 +18,9 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void OnAddApplication();
+
 private:
     Ui::MainWindow *ui;
     QSqlTableModel *model;

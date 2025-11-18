@@ -20,6 +20,10 @@ public:
     QString dateApplied() const;
     QString notes() const;
 
+private slots:
+    void OnSave();
+    void OnCancel();
+
 private:
     Ui::AddApplication *ui;
 };
